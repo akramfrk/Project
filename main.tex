@@ -186,68 +186,28 @@ autonomous driving systems.
 \section{Edge Computing Security and Privacy:}
 \subsection{DDoS Attacks and Defense Mechanisms in Edge Computing:}
 \subsubsection{Introduction:}
-DDoS refers to a type of cyber attack in which attackers aim to disrupt normal services provided by one or more
-servers based on distributed resources such as a cluster of compromised edge devices (a.k.a botnet) [18]. It is a
-powerful attack which aims to prevent the legitimate use of a service. A traditional DDoS attack occurs when an
-attacker persistently sends streams of packets to a victim from the compromised distributed electronic devices;
-thus the hardware resources of the victim are quickly exhausted for handling these malicious
-packets and can no longer process any legitimate request on time. In some other DDoS scenarios, an attacker
-persistently sends malformed packets that confuse an application or a protocol of the victim to falsely conclude
-that all channels and resources are occupied.Edge servers are particularly vulnerable because they have lower
-computational capacity than cloud servers and often serve devices with heterogeneous, insecure firmware.
-Attackers commonly compromise numerous edge devices (botnets) and coordinate them to target edge
-infrastructure.
+DDoS refers to a type of active cyber attack in which external attackers aim to disrupt the availability of normal services provided by one or more servers using distributed resources such as a cluster of compromised edge devices (a.k.a. botnet). It mainly targets the Network, Transport, and Application layers of the OSI model. It is a powerful interruption attack that prevents legitimate users from accessing a service, thereby threatening the availability aspect of information security.
+A traditional DDoS attack occurs when an attacker persistently sends massive streams of packets to a victim from compromised distributed electronic devices; thus, the hardware resources of the victim are quickly exhausted for handling these malicious packets and can no longer process legitimate requests on time. In other cases, attackers send malformed or spoofed packets that confuse the victim’s protocol, causing it to falsely conclude that all channels are occupied.
+Edge servers are particularly vulnerable because they have limited computational capacity, weak authentication, and often operate with heterogeneous and insecure firmware. Attackers commonly compromise numerous edge devices and coordinate them remotely to launch large-scale attacks against edge infrastructures.
+
 \subsubsection{Attack Specifications:}
-DDoS attacks may happen when malicious edge devices communicate with the edge
-servers.
-In a DDOS attack, an attacker first compromises a cluster of edge devices and takes full control of them; then it
-commands each device to launch a denial-of-service attack targeting the edge server, causing the shutdown of
-its services. A typical architecture of a DDoS attack in edge computing is shown in Figure 3. DDoS attacks
-targeting edge computing can be taxonomized as flooding-based attacks and zero-day attacks.
-Flooding-Based Attacks. Flooding-based attacks are a type of DDoS attacks aiming to shutdown the normal
-service of a server based on a large amount of flooded malformed/malicious network packets, and are mainly
-classified as UDP flooding, ICMP flooding, SYN flooding, ping of death (PoD), HTTP flooding, and Slowloris,
-according to the attack techniques.
-In a UDP flooding attack, an attacker continuously sends a large amount of noisy UDP packets to a target edge
-server, causing the server incapable of handling the benign UDP packets in time and thus interrupting the normal
-UDP services provided by the edge server .
-In an ICMP flooding attack, an attacker exploits the ICMP protocol to craft an attack by sending a large number of
-ICMP Echo Request packets to a target edge server as fast as possible without waiting for the replies. This type
-of attack consumes both outgoing and incoming throughputs of the victim server since the server returns an
-ICMP Echo Reply packet upon each receipt of a ping request, resulting in a significant system-wide slowdown .
-In a SYN flooding attack, an attacker exploits the three-way handshake of the TCP protocol by initiating a huge
-amount of SYN requests with a spoofed IP address to a target edge server, while the server responds with a
-SYN-ACK packet to the spoofed IP for each SYN request and waits for the confirmation ACK that never comes .
-In a HTTP flooding attack, an attacker simply sends a tremendous amount
-of HTTP GET, POST, PUT, or other legitimate requests to an edge server. Since the edge server is less likely
-able to handle a huge number of legitimate requests in a timely manner due to the restricted computation power,
-its normal services can be easily throttled if a large amount of HTTP traffics are received in a short period of time
-Zero-day attacks: Attackers exploit previously unknown code or protocol vulnerabilities to trigger memory
-corruption or crashes. Such attacks require discovery of a zero-day vulnerability in code running on the target
-(e.g., a heap overflow) and are difficult to predict or filter because they abuse logic or implementation flaws rather
-than volume.
+In a typical DDoS scenario, the attacker (external) compromises a cluster of edge devices, gains full control, and then commands each to send flooding traffic toward the target edge server, overwhelming it until services shut down. Such flooding-based DDoS attacks include UDP flooding, ICMP flooding, SYN flooding, and HTTP flooding, all relying on saturating the victim’s network and processing capacity. Other variants such as zero-day attacks exploit unknown software vulnerabilities, affecting both availability and integrity of systems.
+Defensive measures include per-packet inspection, traffic filtering, and rate limiting, though detection remains challenging due to IP spoofing and the resemblance between malicious and legitimate traffic.
+An attacker in a DDoS scenario compromises a cluster of edge devices, takes control, and instructs them to send excessive traffic to a target edge server to overwhelm it and stop its service. Flooding-based attacks rely on high volumes of malformed or malicious packets and include major types: UDP flooding, ICMP flooding, SYN flooding, HTTP flooding, Ping of Death, and Slowloris. Brief mechanisms:
+UDP flooding: Sends huge volumes of UDP packets to prevent the server from processing legitimate UDP traffic.
+ICMP flooding: Sends many ICMP Echo Request (ping) packets rapidly; the victim replies to each, consuming both inbound and outbound throughput and slowing the system.
+SYN flooding: Abuses TCP’s three-way handshake by sending many SYNs with spoofed IPs and not completing the handshake, leaving half-open connections on the server.
+HTTP flooding: Sends a large number of legitimate-looking HTTP requests (GET/POST/PUT, etc.), overwhelming the server’s processing capacity.
+Zero-day attacks: Exploit previously unknown software or protocol vulnerabilities (e.g., memory corruption) to crash or corrupt systems; these are hard to predict or filter because they abuse logic/implementation flaws rather than just volume.
 \subsubsection{Defense Strategies Against Flooding:}
-Defenses against flooding generally adopt a detect-and-filter philosophy and fall into two main categories:
-Per-packet detection and filtering: Inspect individual packets and drop suspicious ones before they reach the
-server (e.g., packet filters integrated with congestion control). Techniques include matching packet identifiers,
-negative selection algorithms for validating source IPs, and path-based identifiers. These can be effective but are
-vulnerable to evasion through IP/MAC spoofing, crafted headers, or tools that alter identifiers.
-Statistics-based detection: Analyze traffic aggregates to detect anomalous clusters indicative of DDoS using
-entropy measures or machine learning. Entropy methods detect distributional changes but require substantial
-traffic samples and can struggle with encrypted flows. Machine and deep learning (decision trees, Naive Bayes,
-autoencoders, neural nets) can automate detection, including for encrypted traffic, but need large and
-representative training data and risk overfitting; they generally become effective only after a significant volume of
-attack traffic has occurred.
+D1. Per-packet inspection and filtering: Drop suspicious packets before they reach the server (e.g., packet filters tied to congestion control). Effective but can be evaded by IP/MAC spoofing, forged headers, or tools that alter identifiers.
+2. Statistics-based detection: Analyze traffic aggregates for anomalies (entropy measures, statistical clustering). Requires large traffic samples and struggles with encrypted flows.
+3. Machine/deep learning: Use models (decision trees, Naive Bayes, autoencoders, neural nets) to detect attacks, including some encrypted traffic. These require large, representative training datasets, risk overfitting, and typically become effective only after substantial attack traffic has been observed.
+Limitations: All approaches face practical challenges — IP spoofing, similarity between legitimate and attack traffic, encrypted flows that hinder inspection, and the need for extensive, high-quality training data. Effective defense usually combines real-time packet filtering with aggregate analysis and ML-based detection.
 \subsubsection{Defense Strategies Against Zero-Day Exploits:}
-Zero-day defenses address code-level vulnerabilities through memory-safety analysis and protective isolation:
-Memory analysis and detection: Pointer-tainting, ECC memory, and firmware analysis aim to reveal or mitigate
-memory corruption. Techniques that analyze firmware or apply deep-learning vulnerability detectors (RNNs,
-GNNs, NLP) can identify risky code even without source code, but firmware encryption and anti-debug
-mechanisms limit applicability.
-Active protection and isolation: In-process memory isolation, SDN-based IoT firewalls, lightweight isolation on
-access routers, and fuzzing from application sides can reduce attack surface or detect crashes without firmware
-access. However, isolation and advanced protections often incur overhead that is prohibitive for constrained
-IoT/edge devices and may not eliminate complex zero-day triggers.
+Zero-day defenses focus on mitigating code-level vulnerabilities through memory safety analysis and protective isolation mechanisms.
+Memory analysis and detection: Techniques like pointer-tainting, ECC memory, and firmware analysis help identify or reduce memory corruption. Deep learning models (RNNs, GNNs, NLP-based analyzers) can detect vulnerable code even without access to the source. However, encrypted firmware and anti-debugging measures often restrict their effectiveness.
+Active protection and isolation: Methods such as in-process memory isolation, SDN-based IoT firewalls, lightweight isolation at access routers, and application-side fuzzing help minimize the attack surface or detect crashes. Despite their benefits, these methods can impose heavy computational overheads that are unsuitable for resource-constrained IoT or edge devices and may still fail to prevent complex zero-day exploits.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{images/DDoS.jpg}
