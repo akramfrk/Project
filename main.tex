@@ -322,8 +322,7 @@ affected helps prioritize security controls and apply layered defenses across bo
 \subsubsection{Introduction:}
 Authentification is the process of verifying the identity of users who request certain
 services.
-Authorization is the process that determines an entity’s access rights and privileges,
-ensuring that it acts within its allowed limits.
+Authorization is the process that determines an entity’s access rights and privileges.
 In edge computing, authentication often takes place between edge devices and edge
 servers, but it can also be decentralized among devices.
 \subsubsection{The four main types of authentification and authorisation attacks are:}
@@ -337,46 +336,33 @@ actions.
 \subsubsection{OSI layer targeted by the attack:}
 In edge computing, authentication and authorization attacks mainly target the
 application layer (identity, access, and API management).
-They also affect the session and presentation layers through encryption protocols
-and secure sessions. Finally, they reach the network layer, especially in 4G/5G,
-through interception or spoofing between edge nodes.
+They also affect the session ,presentation  and network layers .
 \subsubsection{Attack type:}
 Authentication and authorization attacks are generally active attacks, because the
 attacker must interact directly with the system. They are rarely passive.
 \subsubsection{Attack location:}
 In edge computing, about 70\% of authentication and authorization attacks come from
-external sources (through public interfaces ), while around 30% are internal, often
-originating from employees or entities already within the network, and are more
-dangerous due to their legitimate access.
+external sources (through public interfaces ), while around 30\% are internal.
 \subsubsection{Attack threat:}
-Authentification and authorization attacks threaten several security properties:
-\begin{itemize}
-    \item \textbf{Authentification:} The attacker can impersonate a legitimate user (identity spoofing).
-    \item \textbf{Confidentiality:} The attacker gains access to sensitive information
-    \item \textbf{Integrity:} Once unauthorized access is obtained, they can modify or delete data.
-    \item \textbf{Availability:} In some cases, unauthorized access can lead to service disruption.
-\end{itemize}
+Authentification and authorization attacks threaten several security properties: authentification , confidentiality , integrity and availability .
+
 \subsubsection{Demage level:}
 Authentication and authorization attacks can have high to critical impact, allowing
 unauthorized access, data modification, and disruption of system operations. They
 also undermine trust and accountability, making detection and response difficult.
-\subsubsection{Reasons for low to moderate detection rate of authentication and authorization attacks
-in edge computing:}
+\subsubsection{Reasons for low to moderate detection rate :}
 \begin{itemize}
     \item Attackers use legitimate credentials or sessions, blending with normal activity.
-    \item Conventional monitoring cannot detect actions within granted privileges or low-
-profile behavior.
+    \item Conventional monitoring cannot detect actions within granted privileges .
     \item Effective detection requires advanced techniques (UEBA, AI-driven anomaly
-detection); traditional tools miss most breaches.
+detection).
 \end{itemize}
-\subsubsection{Preventive measures for authentication and authorization attacks in edge computing:}
+\subsubsection{Preventive measures :}
 \begin{itemize}
     \item \textbf{Robust authentication:} Hardware-bound MFA, no password-only schemes.
-    \item \textbf{Granular authorization:} Least-privilege via dynamic RBAC/ABAC and just-in-
-time privileges.
+    \item \textbf{Granular authorization:} Least-privilege via dynamic RBAC/ABAC .
     \item \textbf{Real-time monitoring:} UEBA, AI-driven anomaly detection, distributed SIEM.
-    \item \textbf{Zero-trust posture:} Verify all requests using mutual TLS, workload identity,
-and micro-segmentation.
+    \item \textbf{Zero-trust posture:} Verify all requests using mutual TLS and  workload identity.
 \end{itemize}
 \subsubsection{The authentification and authorisation attacks based on:}
 The attack consists of impersonating a legitimate identity to perform unauthorized
@@ -389,7 +375,7 @@ commands) before they reach the cloud.
     \item Poorly validated permissions
     \item Implicit network trust
     \item Exposed APIs without protection
-    \item Compromised endpoints/nodes
+    
 \end{itemize}
 \subsubsection{Exesting solutions and their limitations:}
 \textbf{Existing solutions:} MFA (confirmation of user identity), RBAC/ABAC, end-to-end
@@ -397,11 +383,7 @@ encryption (mTLS) end API security.\\
 \textbf{Limitations:} Vulnerable if credentials or tokens are stolen, nodes are compromised,
 or policies misconfigured; they can add complexity, overhead, and scalability
 challenges.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{images/authentification.jpg}
-    \caption{Authentification}
-\end{figure}
+
 \subsection{A Comparison Study on Security Issues in Edge Computing and Cloud Computing}
 
 \subsubsection{Architectural Differences Between Cloud and Edge Computing}
