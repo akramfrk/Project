@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.9)  13 NOV 2025 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.9)  13 NOV 2025 15:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,211 +381,211 @@ Package pdftex.def Info: images/Architecture2.jpg  used on input line 181.
 <images/DDoS.jpg, id=365, 470.75874pt x 224.84pt>
 File: images/DDoS.jpg Graphic file (type jpg)
 <use images/DDoS.jpg>
-Package pdftex.def Info: images/DDoS.jpg  used on input line 253.
+Package pdftex.def Info: images/DDoS.jpg  used on input line 213.
 (pdftex.def)             Requested size: 375.80544pt x 179.49142pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 261.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 221.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [8 <./images/DDoS.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 271.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 231.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [9] [10] [11] [12] [13]
 <images/authentification.jpg, id=401, 432.04892pt x 262.37152pt>
 File: images/authentification.jpg Graphic file (type jpg)
 <use images/authentification.jpg>
-Package pdftex.def Info: images/authentification.jpg  used on input line 442.
+Package pdftex.def Info: images/authentification.jpg  used on input line 402.
 (pdftex.def)             Requested size: 375.80544pt x 228.22133pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--456
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []|\OT1/ptm/m/n/12 Fully-fledged com-put-ers (PCs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--459
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 []|\OT1/ptm/m/n/12 Primarily wire-less con-nec-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []|\OT1/ptm/m/n/12 Resource Ca-pa-
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 462--462
+Underfull \hbox (badness 7832) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/12 Data Pro-cess-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/12 Centralized data pro-cess-ing in
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 462--463
+Underfull \hbox (badness 7151) in paragraph at lines 422--423
 []|\OT1/ptm/m/n/12 Localized pro-cess-ing near data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--464
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
 []|\OT1/ptm/m/n/12 Service Char-ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 []|\OT1/ptm/m/n/12 Low la-tency, location-aware,
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 464--465
+Underfull \hbox (badness 2726) in paragraph at lines 424--425
 \OT1/ptm/m/n/12 real-time, privacy-enhanced, and
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 466--467
+Underfull \hbox (badness 1509) in paragraph at lines 426--427
 []|\OT1/ptm/m/n/12 Distributed | many small edge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\OT1/ptm/m/n/12 Security Chal-
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 470--470
+Underfull \hbox (badness 1596) in paragraph at lines 430--430
 []|\OT1/ptm/m/n/12 Strong cen-tral-ized au-then-ti-ca-tion,
  []
 
 [14 <./images/authentification.jpg>] [15]
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 484.
+            Default family used instead on input line 444.
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 444--444
 []|\OT1/ptm/m/n/12 Uses heavy-weight pro-to-cols
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 484--484
+Underfull \hbox (badness 2261) in paragraph at lines 444--444
 \OT1/ptm/m/n/12 (HTTP/HTTPS, FTP, SMTP) \TS1/cmr/m/n/12 ^^Y
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 484--484
+Underfull \hbox (badness 1803) in paragraph at lines 444--444
 \OT1/ptm/m/n/12 zero-day DDoS due to soft-ware
  []
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 484.
+            Default family used instead on input line 444.
 
-Underfull \hbox (badness 3657) in paragraph at lines 484--485
+Underfull \hbox (badness 3657) in paragraph at lines 444--445
 \OT1/ptm/m/n/12 MQTT, UDP) \TS1/cmr/m/n/12 ^^Y \OT1/ptm/m/n/12 eas-ier to at-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 486--486
+Underfull \hbox (badness 4266) in paragraph at lines 446--446
 \OT1/ptm/m/n/12 face. At-tacks mostly through
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 486--486
+Underfull \hbox (badness 3482) in paragraph at lines 446--446
 \OT1/ptm/m/n/12 packet eaves-drop-ping or crafted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 []|\OT1/ptm/m/n/12 Attackers usu-ally com-pro-mise
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 488--488
+Underfull \hbox (badness 2057) in paragraph at lines 448--448
 \OT1/ptm/m/n/12 clients. Harder to com-pro-mise
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 490--490
+Underfull \hbox (badness 1308) in paragraph at lines 450--450
 []|\OT1/ptm/m/n/12 Authentication & Au-
  []
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 490.
+            Default family used instead on input line 450.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 490.
+            Default family used instead on input line 450.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []|\OT1/ptm/m/n/12 More weak pass-words on
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 490--491
+Underfull \hbox (badness 6910) in paragraph at lines 450--451
 \OT1/ptm/m/n/12 IoT/mobile de-vices. Vul-ner-a-
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 490--491
+Underfull \hbox (badness 6825) in paragraph at lines 450--451
 \OT1/ptm/m/n/12 ble to WPA/WPA2, Blue-tooth,
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 490--491
+Underfull \hbox (badness 2828) in paragraph at lines 450--451
 \TS1/cmr/m/n/12 ^^Y \OT1/ptm/m/n/12 com-plex au-tho-riza-tion, more
  []
 
 
-Overfull \hbox (23.08902pt too wide) in paragraph at lines 480--493
+Overfull \hbox (23.08902pt too wide) in paragraph at lines 440--453
  [] 
  []
 
 [16{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (6.2436pt too wide) in paragraph at lines 535--546
+Overfull \hbox (6.2436pt too wide) in paragraph at lines 495--506
 \OT1/ptm/m/n/12 low. Many at-tacks are, in fact, the re-sults of the code-level vul-ner-a-bil-i-ties. Note that implementation-
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/12 Protocol-Level
  []
 
 
-Overfull \hbox (0.63277pt too wide) in paragraph at lines 602--602
+Overfull \hbox (0.63277pt too wide) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/12 Implementation-
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 602--602
+Underfull \hbox (badness 4181) in paragraph at lines 562--562
 []\OT1/ptm/m/n/12 Developers may mis-un-der-stand
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 602--602
+Underfull \hbox (badness 1117) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/12 Bypass the se-cu-rity fea-tures pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/12 Data Cor-re-la-
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 602--602
+Underfull \hbox (badness 2884) in paragraph at lines 562--562
 \OT1/ptm/m/n/12 channel at-tacks) or tam-per with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/b/n/12 Lacking Fine-
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 602--602
+Underfull \hbox (badness 3179) in paragraph at lines 562--562
 \OT1/ptm/b/n/12 Grained Ac-cess
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|\OT1/ptm/m/n/12 E.g., au-tho-riza-tion at-tacks and
  []
 
@@ -602,7 +602,7 @@ Here is how much of TeX's memory you used:
  1137 hyphenation exceptions out of 8191
  75i,9n,77p,1237b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (23 pages, 477696 bytes).
+Output written on main.pdf (23 pages, 477214 bytes).
 PDF statistics:
  487 PDF objects out of 1000 (max. 8388607)
  444 compressed objects within 5 object streams
