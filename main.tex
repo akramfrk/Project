@@ -1,21 +1,20 @@
 \documentclass[12pt]{article}
 
-% Compiling with XeLaTeX, so no inputenc/fontenc
 \usepackage{graphicx}
 \usepackage{geometry}
 \geometry{margin=1in}
 \usepackage{enumitem}
 \usepackage{times}
 \usepackage{titlesec}
-\usepackage{float} % Required for the [H] float option
-\usepackage{subcaption} % Required for subfigure environment
+\usepackage{float}
+\usepackage{subcaption}
 \usepackage{tabularx}
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
 
 \usepackage[colorlinks=true,  
-            linkcolor=blue,   % internal links  
-            urlcolor=cyan,    % external URLs  
+            linkcolor=blue,
+            urlcolor=cyan,  
             citecolor=blue]{hyperref}
 
 \usepackage{setspace}
@@ -28,7 +27,7 @@
     \begin{center}
         \begin{figure}[h]
             \centering
-            \includegraphics[width=1\linewidth]{Header.png} % Make sure this file exists
+            \includegraphics[width=1\linewidth]{Header.png}
         \end{figure}
         
         \vspace{1cm}
@@ -48,7 +47,7 @@
         BOUAKKAZ Madjeda \\
         DJEBOURI Lynda \\
         FERKIOUI Akram \\
-        HAMMOUTI Walida \\[3cm]
+        HAMMOUTI Walid \\[3cm]
 
 
     \end{center}
@@ -446,7 +445,7 @@ result in huge financial loss. The leading root causes of these security threats
 the unavoidable flaws or vulnerabilities in protocol and code designs as well as their
 implementations, the concealed correlations between the public and the protected
 private/secure data, and the lack of fine-grained access control.
-\subsection{Protocol-Level Design Flaws:}
+\subsubsection{Protocol-Level Design Flaws:}
 Protocol is the fundamental support
 for basic functions such as communications and data processing in edge
 computing from the theoretical perspective.Unfortunately, many of the current
@@ -456,7 +455,7 @@ as something unimportant if not unnecessary. By exploiting these flaws, an
 attacker can achieve attack goals ranging from simply shutting down a normal
 service (e.g. DDoS) to fully controlling an edge device or server (e.g.,
 malware injection attacks).
-\subsection{Implementation-Level Flaws:}
+\subsubsection{Implementation-Level Flaws:}
 Implementation is the process of
 practically realizing the edge computing functionalities. Even if a protocol may
 be proven secure mathematically, it does not necessarily mean that its
@@ -470,7 +469,7 @@ platform may cause adaptivity in consistencies.
 \end{itemize}
 By exploiting implementation flaws, an attacker can bypass the security
 features provided by the protocol (e.g., authentication attacks).
-\subsection{Code-Level Vulnerabilities:}
+\subsubsection{Code-Level Vulnerabilities:}
 Code is the basic unit of a program,
 which defines the exact execution flow a processor should follow. Many
 attacks are, in fact, the results of the code-level vulnerabilities. Note that
@@ -482,7 +481,7 @@ use-after-free dangling pointer, format string, and so on. By exploiting these
 vulnerabilities, an attacker can achieve attack goals ranging from simply
 shutting down a normal service to fully controlling an edge device or server
 (e.g., malware injection attacks).
-\subsection{Data Correlations:}
+\subsubsection{Data Correlations:}
 In an edge computing system, tons of data would be
 generated from the edge infrastructures constantly, with some of them being
 sensitive and placed under strict protections while others less sensitive and
@@ -492,7 +491,7 @@ be straightforward. Nevertheless, by exploiting these correlations and
 leveraging various attack models, an attacker can infer the sensitive data
 (e.g., side channel attacks) or even tamper them (e.g., bad data injection
 attacks) based on the insensitive data.
-\subsection{Lacking Fine-Grained Access Controls:}
+\subsubsection{Lacking Fine-Grained Access Controls:}
 Access control is one of
 the most important security measures, via which an entity is permitted to
 access only the least resources it needs. Such a measure has a good
@@ -504,54 +503,21 @@ mechanisms, or even do not employ any access control mechanism. Lacking
 a fine-grained access control specifically designed for edge computing
 applications may significantly lower the bar of launching an attack (e.g.,
 authorization attacks and MITM attacks).
-\subsubsection{Root Causes of Security Issues (A Summary):}
-\renewcommand{\arraystretch}{1.5} % Increase row spacing for readability
-\begin{tabularx}{\textwidth}{|p{3cm}|X|X|}
-\hline
-\textbf{ROOT CAUSE} & \textbf{PROBLEM} & \textbf{POSSIBLE ATTACKS} \\
-\hline
-
-\textbf{Protocol-Level Design Flaws} &
-Edge protocol designers mainly focus on utility and user experience, treating security as something unimportant. &
-Ranging from simply shutting down a normal service (e.g., DDoS) to fully controlling an edge device or server (e.g., malware injection attacks). \\
-\hline
-
-\textbf{Implementation-Level Flaws} &
-\begin{itemize}[leftmargin=*]
-    \item Developers may misunderstand the foundations of the protocol.
-    \item Migrating a protocol from other platforms to the edge computing platform may cause adaptivity inconsistencies.
-\end{itemize} &
-Bypass the security features provided by the protocol (e.g., authentication attacks). \\
-\hline
-
-\textbf{Code-Level Vulnerabilities} &
-Stack/heap overflow, use-after-free, dangling pointer, format string, and so on. &
-Ranging from simply shutting down a normal service to fully controlling an edge device or server (e.g., malware injection attacks). \\
-\hline
-
-\textbf{Data Correlations} &
-There may exist hidden correlations between sensitive data and insensitive data, which may not be straightforward. &
-Infer the sensitive data (e.g., side-channel attacks) or tamper with them (e.g., bad data injection attacks) based on the insensitive data. \\
-\hline
-
-\textbf{Lacking Fine-Grained Access Controls} &
-Implement only coarse-grained access control mechanisms, or do not employ any access control mechanism at all. (Lacking a fine-grained access control specifically designed for edge computing applications.) &
-E.g., authorization attacks and MITM attacks. \\
-\hline
-\end{tabularx}
 \subsection{Status Quo and Grand Challenges:}
 \subsubsection{Introduction:}
-Edge computing has rapidly evolved as a response to the limitations of traditional cloud computing, offering low latency, location awareness, and efficient data processing near the source. However, this fast growth has outpaced the development of robust security mechanisms. Current edge infrastructures face several significant challenges that hinder the establishment of a secure and resilient ecosystem. These challenges can be grouped under four main aspects: design philosophy, framework adaptability, access control, and defensive capabilities.
+Edge computing has emerged to overcome the limitations of traditional cloud computing by providing low latency and localized processing. However, its rapid growth has outpaced the development of robust security mechanisms. Current systems face challenges in four key areas: design philosophy, framework adaptability, access control, and defensive capabilities.
+
 \subsubsection{Lack of Security-by-Design:}
-Most edge systems are developed with a strong emphasis on performance optimization and low latency to meet the demands of IoT, smart city, and mobile applications. Security is often treated as an afterthought rather than an integral part of the design process. This lack of a security-by-design approach results in inherent vulnerabilities, exposing edge nodes and devices to a wide range of attacks such as malware injection, DDoS, and unauthorized access. Because the architecture of edge computing is distributed and heterogeneous, adding security later becomes complex and inefficient. Integrating security considerations from the early design stages is thus a fundamental but still largely unmet challenge.
+Edge systems are primarily designed for performance and low latency, often neglecting security considerations in the early stages. This results in built-in vulnerabilities that make edge nodes susceptible to attacks such as malware injection, DDoS, and unauthorized access. The distributed and heterogeneous nature of edge environments further complicates the later integration of security measures, highlighting the need for a security-by-design approach.
+
 \subsubsection{Non-Migratability of Traditional Security Frameworks:}
-Existing security mechanisms built for centralized systems, such as those used in cloud environments, cannot be directly applied to edge computing. The differences in computational power, operating systems, communication protocols, and network hierarchies make direct migration impractical. Moreover, the diversity of devices—from sensors to mobile phones to microservers—creates compatibility issues that prevent unified implementation. Even within the same domain, a framework developed for one edge computing scenario (e.g., industrial IoT) may not function effectively in another (e.g., vehicular networks). This lack of standardization leads to fragmented security management and complicates the creation of universally applicable solutions.
+Security solutions created for centralized cloud environments are not directly applicable to edge systems due to differences in computational capabilities, architectures, and communication protocols. The diversity of edge devices and lack of standardization cause fragmented security management and hinder the development of universal frameworks.
+
 \subsubsection{Fragmented and Coarse-Grained Access Control:}
-Access control in edge systems remains one of the weakest links. Current models are fragmented because different vendors and platforms use different access strategies, making it difficult to design a global or interoperable security policy. They are also coarse-grained, meaning that permissions are typically broad (e.g., read/write access) instead of being fine-tuned to specific operations, contexts, or devices. In complex edge environments where multiple devices interact dynamically, this limited granularity makes it difficult to define “who can do what, where, and when.” Developing fine-grained, context-aware access control remains an open research problem.
+Access control in edge environments is inconsistent and lacks granularity. Different platforms use incompatible models, and permissions are often too broad to handle dynamic interactions between devices. Developing fine-grained, context-aware access control policies remains a significant research challenge.
+
 \subsubsection{Isolated and Passive Defense Mechanisms:}
-Most existing defense mechanisms for edge computing are isolated, protecting against only specific types of attacks, and passive, responding only after a threat has occurred. Many systems rely on “detect-and-patch” approaches, which cannot prevent zero-day attacks or coordinated, multi-vector intrusions. Furthermore, these mechanisms lack collaboration across devices and layers—edge nodes rarely share threat intelligence or coordinate active defense strategies. Building adaptive, intelligent, and cooperative defense mechanisms that can anticipate and respond dynamically to evolving attacks is a critical challenge for the future.
-\subsubsection{Conclusion:}
-In summary, the current state of edge computing security is still immature. The absence of integrated design principles, the poor adaptability of existing frameworks, weak access control, and passive defense strategies all contribute to an insecure environment. Future research must aim to create unified, scalable, and proactive solutions that embed security into the foundation of edge computing systems.
+Current defense strategies are largely reactive and siloed, offering limited protection against advanced or coordinated attacks. Most rely on detection and patching rather than proactive threat prevention. A key challenge is to design adaptive and collaborative defense systems capable of anticipating and responding dynamically to evolving threats.
 \subsection{Future Research Directions:}
 \subsubsection{Introduction:}
 Recent analyses of Distributed Denial-of-Service (DDoS) attacks, malware injection, and
