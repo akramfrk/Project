@@ -31,33 +31,33 @@
 \contentsline {subsubsection}{\numberline {3.4.5}Attack location:}{12}{subsubsection.3.4.5}%
 \contentsline {subsubsection}{\numberline {3.4.6}Attack threat:}{12}{subsubsection.3.4.6}%
 \contentsline {subsubsection}{\numberline {3.4.7}Demage level:}{13}{subsubsection.3.4.7}%
-\contentsline {subsubsection}{\numberline {3.4.8}Reasons for low to moderate detection rate of authentication and authorization attacks in edge computing:}{13}{subsubsection.3.4.8}%
-\contentsline {subsubsection}{\numberline {3.4.9}Preventive measures for authentication and authorization attacks in edge computing:}{13}{subsubsection.3.4.9}%
+\contentsline {subsubsection}{\numberline {3.4.8}Reasons for low to moderate detection rate :}{13}{subsubsection.3.4.8}%
+\contentsline {subsubsection}{\numberline {3.4.9}Preventive measures :}{13}{subsubsection.3.4.9}%
 \contentsline {subsubsection}{\numberline {3.4.10}The authentification and authorisation attacks based on:}{13}{subsubsection.3.4.10}%
 \contentsline {subsubsection}{\numberline {3.4.11}The exploited vulnerabilities:}{13}{subsubsection.3.4.11}%
-\contentsline {subsubsection}{\numberline {3.4.12}Exesting solutions and their limitations:}{14}{subsubsection.3.4.12}%
-\contentsline {subsection}{\numberline {3.5}A Comparison Study on Security Issues in Edge Computing and Cloud Computing}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Architectural Differences Between Cloud and Edge Computing}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Comparison of Security Attacks in Cloud and Edge Computing}{16}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Conclusion}{16}{subsubsection.3.5.3}%
-\contentsline {section}{\numberline {4}Root Causes, Grand Challenges , and Furure Research:}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Root Causes of Security Issues:}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Protocol-Level Design Flaws:}{17}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Implementation-Level Flaws:}{17}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Code-Level Vulnerabilities:}{17}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Data Correlations:}{18}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Lacking Fine-Grained Access Controls:}{18}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Root Causes of Security Issues (A Summary):}{19}{subsubsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.7}Status Quo and Grand Challenges:}{19}{subsection.4.7}%
-\contentsline {subsubsection}{\numberline {4.7.1}Introduction:}{19}{subsubsection.4.7.1}%
-\contentsline {subsubsection}{\numberline {4.7.2}Lack of Security-by-Design:}{20}{subsubsection.4.7.2}%
-\contentsline {subsubsection}{\numberline {4.7.3}Non-Migratability of Traditional Security Frameworks:}{20}{subsubsection.4.7.3}%
-\contentsline {subsubsection}{\numberline {4.7.4}Fragmented and Coarse-Grained Access Control:}{20}{subsubsection.4.7.4}%
-\contentsline {subsubsection}{\numberline {4.7.5}Isolated and Passive Defense Mechanisms:}{20}{subsubsection.4.7.5}%
-\contentsline {subsubsection}{\numberline {4.7.6}Conclusion:}{20}{subsubsection.4.7.6}%
-\contentsline {subsection}{\numberline {4.8}Future Research Directions:}{21}{subsection.4.8}%
-\contentsline {subsubsection}{\numberline {4.8.1}Introduction:}{21}{subsubsection.4.8.1}%
-\contentsline {subsubsection}{\numberline {4.8.2}Multi-Layer Integrated Security Frameworks:}{21}{subsubsection.4.8.2}%
-\contentsline {subsubsection}{\numberline {4.8.3}Cross-Cutting Security Imperatives:}{21}{subsubsection.4.8.3}%
-\contentsline {subsubsection}{\numberline {4.8.4}Implementation Challenges and Research Trajectories:}{21}{subsubsection.4.8.4}%
-\contentsline {subsubsection}{\numberline {4.8.5}Conclusion: Toward Comprehensive Edge Security:}{22}{subsubsection.4.8.5}%
+\contentsline {subsubsection}{\numberline {3.4.12}Exesting solutions and their limitations:}{13}{subsubsection.3.4.12}%
+\contentsline {subsection}{\numberline {3.5}A Comparison Study on Security Issues in Edge Computing and Cloud Computing}{14}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Architectural Differences Between Cloud and Edge Computing}{14}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Comparison of Security Attacks in Cloud and Edge Computing}{15}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Conclusion}{15}{subsubsection.3.5.3}%
+\contentsline {section}{\numberline {4}Root Causes, Grand Challenges , and Furure Research:}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Root Causes of Security Issues:}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Protocol-Level Design Flaws:}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Implementation-Level Flaws:}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Code-Level Vulnerabilities:}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Data Correlations:}{17}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Lacking Fine-Grained Access Controls:}{17}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Root Causes of Security Issues (A Summary):}{18}{subsubsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.7}Status Quo and Grand Challenges:}{18}{subsection.4.7}%
+\contentsline {subsubsection}{\numberline {4.7.1}Introduction:}{18}{subsubsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.2}Lack of Security-by-Design:}{19}{subsubsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.3}Non-Migratability of Traditional Security Frameworks:}{19}{subsubsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.4}Fragmented and Coarse-Grained Access Control:}{19}{subsubsection.4.7.4}%
+\contentsline {subsubsection}{\numberline {4.7.5}Isolated and Passive Defense Mechanisms:}{19}{subsubsection.4.7.5}%
+\contentsline {subsubsection}{\numberline {4.7.6}Conclusion:}{19}{subsubsection.4.7.6}%
+\contentsline {subsection}{\numberline {4.8}Future Research Directions:}{20}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.8.1}Introduction:}{20}{subsubsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.2}Multi-Layer Integrated Security Frameworks:}{20}{subsubsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.3}Cross-Cutting Security Imperatives:}{20}{subsubsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.4}Implementation Challenges and Research Trajectories:}{20}{subsubsection.4.8.4}%
+\contentsline {subsubsection}{\numberline {4.8.5}Conclusion: Toward Comprehensive Edge Security:}{21}{subsubsection.4.8.5}%
