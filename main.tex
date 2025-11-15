@@ -268,18 +268,12 @@ affected helps prioritize security controls and apply layered defenses across bo
 \subsection{Authentication and Authorization Attacks and Defense Mechanisms:}
 \subsubsection{Introduction:}
 Authentification is the process of verifying the identity of users who request certain
-services.
-Authorization is the process that determines an entity’s access rights and privileges.
-In edge computing, authentication often takes place between edge devices and edge
+services.  Authorization is the process that determines an entity’s access rights and privileges.In edge computing, authentication often takes place between edge devices and edge
 servers, but it can also be decentralized among devices.
 \subsubsection{The four main types of authentification and authorisation attacks are:}
-\begin{itemize}
-    \item Brute-force attacks : guessing passwords to gain access.
-    \item Authentication protocol flaws : exploiting weaknesses
-    \item Authorization protocol flaws : bypassing access controls to gain privileges.
-    \item Over-privilege attack : abusing excessive permissions to perform unauthorized
-actions.
-\end{itemize}
+
+    Brute-force attacks ( guessing passwords to gain access), Authentication protocol flaws ( exploiting weaknesses), Authorization protocol flaws (bypassing access controls to gain privileges) and  Over-privilege attack ( abusing excessive permissions to perform unauthorized actions ).
+
 \subsubsection{OSI layer targeted by the attack:}
 In edge computing, authentication and authorization attacks mainly target the
 application layer (identity, access, and API management).
@@ -298,32 +292,29 @@ Authentication and authorization attacks can have high to critical impact, allow
 unauthorized access, data modification, and disruption of system operations. They
 also undermine trust and accountability, making detection and response difficult.
 \subsubsection{Reasons for low to moderate detection rate :}
-\begin{itemize}
-    \item Attackers use legitimate credentials or sessions, blending with normal activity.
-    \item Conventional monitoring cannot detect actions within granted privileges .
-    \item Effective detection requires advanced techniques (UEBA, AI-driven anomaly
+
+  Attackers use legitimate credentials or sessions, blending with normal activity,
+   Conventional monitoring cannot detect actions within granted privileges  and also 
+  Effective detection requires advanced techniques (UEBA, AI-driven anomaly
 detection).
-\end{itemize}
+
 \subsubsection{Preventive measures :}
-\begin{itemize}
-    \item \textbf{Robust authentication:} Hardware-bound MFA, no password-only schemes.
-    \item \textbf{Granular authorization:} Least-privilege via dynamic RBAC/ABAC .
-    \item \textbf{Real-time monitoring:} UEBA, AI-driven anomaly detection, distributed SIEM.
-    \item \textbf{Zero-trust posture:} Verify all requests using mutual TLS and  workload identity.
-\end{itemize}
+ \textbf{Robust authentication:} Hardware-bound MFA, no password-only schemes , 
+    \textbf{Granular authorization:} Least-privilege via dynamic RBAC/ABAC ,
+ \textbf{Real-time monitoring:} UEBA, AI-driven anomaly detection, distributed SIEM and 
+     \textbf{Zero-trust posture:} Verify all requests using mutual TLS and  workload identity.
+
 \subsubsection{The authentification and authorisation attacks based on:}
 The attack consists of impersonating a legitimate identity to perform unauthorized
 actions in real time directly on an edge node.
 It allows the attacker to steal, modify, redirect, or block critical flows (data,
 commands) before they reach the cloud.
 \subsubsection{The exploited vulnerabilities:}
-\begin{itemize}
-    \item Weak identity
-    \item Poorly validated permissions
-    \item Implicit network trust
-    \item Exposed APIs without protection
+ Weak identity, Poorly validated permissions ,
+  Implicit network trust and 
+    Exposed APIs without protection
     
-\end{itemize}
+
 \subsubsection{Exesting solutions and their limitations:}
 \textbf{Existing solutions:} MFA (confirmation of user identity), RBAC/ABAC, end-to-end
 encryption (mTLS) end API security.\\
