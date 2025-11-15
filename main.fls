@@ -651,11 +651,6 @@ INPUT ./images/Architecture1.jpg
 INPUT images/Architecture1.jpg
 INPUT ./images/Architecture1.jpg
 INPUT ./images/Architecture1.jpg
-INPUT ./images/Architecture2.jpg
-INPUT ./images/Architecture2.jpg
-INPUT images/Architecture2.jpg
-INPUT ./images/Architecture2.jpg
-INPUT ./images/Architecture2.jpg
 INPUT ./images/DDoS.jpg
 INPUT ./images/DDoS.jpg
 INPUT images/DDoS.jpg

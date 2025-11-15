@@ -58,29 +58,11 @@
 \newpage
 
 \section{Introduction:}
-IoT devices, mobile apps, and other systems that need super fast responses are everywhere
-now. That’s why edge computing has become such a big deal, a system that moves data
-processing and storage closer to where the data is generated instead of sending everything to
-the cloud. This cuts down delays, saves bandwidth, and lets systems make decisions in real
-time in areas like self-driving cars, smart cities, industrial automation, and healthcare
-monitoring… But this setup also brings new security challenges since having devices and
-servers all over the place makes them more vulnerable to attacks, especially since they don’t
-have the same protections as big cloud servers.
-Edge computing usually works in layers : the devices themselves (Edge Device Layer, EDL), the
-local servers that support them (Edge Server Layer, ESL), and then the big cloud servers (Cloud
-Server Layer, CSL). Devices like sensors and controllers interact directly with the real world,
-handling data locally. That’s great for speed, but it also opens up new attack points. Edge
-servers take on heavier tasks from devices, manage multiple endpoints, and make sure
-communication stays secure. The cloud handles the big-picture stuff : analytics, AI, and storing
-data long-term. Every layer helps the system work, but each also has its own weak spots.
-Security in edge computing is tricky. Attacks like DDoS, side-channel exploits, malware, and
-stolen credentials are common. Since edge systems are spread out, resource-limited, and
-varied, old-school cloud security doesn’t always cut it. Edge computing needs smarter, lighter,
-and adaptable defenses , ones that protect the system without slowing it down.
-In this research, we’re looking at the architecture of edge computing, the security risks, and
-privacy challenges, with a close look at each layer (EDL, ESL, CSL). The goal is to figure out
-why problems happen, see how they’re currently handled, and point out big challenges for the
-future.
+Edge computing has emerged as a critical architectural shift aimed at bringing computation and intelligence closer to data sources, especially in environments where latency, bandwidth constraints, and real-time processing requirements dominate system design. The topic was selected because modern distributed infrastructures—from IoT deployments to autonomous services—demand architectures capable of delivering efficiency, resilience, and robust security at the network edge. Throughout this work, we analyze the essential components that define edge computing, including architectural layers, communication models, security threats, and the mechanisms used to mitigate them. Each aspect is examined from both conceptual foundations and contemporary research developments.
+
+The research team organized the work into coordinated sections to provide a structured and comprehensive study. Djebouri Linda introduced the general context and outlined the key security threats that motivate the need for secure edge infrastructures and contributed to the preparation and design of the presentation. Khedri Manal examined the architecture of edge computing by analyzing the edge device, edge server, and cloud server layers. Ait Hocine Khadidja investigated DDoS attacks in edge environments and reviewed existing defense mechanisms. Bouakkaz Madjeda explored side-channel attacks and the protective techniques used to counter them. Boutria Manal analyzed malware-injection attacks that target edge nodes. Ferrat Ilham discussed weaknesses in authentication and authorization processes. Hammouti Walid provided a comparative study between security challenges in edge systems and those found in cloud computing. Kellakh Ranyme identified the root causes underlying persistent security issues. Ferkioui Akram presented the main challenges facing current systems and worked on the project report. Finally, Dokkar Chaima outlined future research directions to support the evolution of secure and scalable edge architectures.
+
+Through this collaborative effort, the group offers a unified and coherent understanding of edge computing and highlights the open problems that continue to drive research in this rapidly developing field.
 
 \newpage
 \section{Architecture of Edge Computing:}
@@ -147,37 +129,6 @@ computing.
     \includegraphics[width=0.8\linewidth]{images/Architecture1.jpg}
     \caption{Architecture of Edge Computing}
 \end{figure}
-\subsection{Example}
-\href{https://youtu.be/Abiu2YaY6b0?si=livQRpg5GOX9C_F9}{Source} \\
-To better understand how communication and processing occur within this
-architecture, let’s take one of the most well-known examples : the self-driving car.
-
-1. Edge Devices Layer
-In this layer, all sensors inside the self-driving car ( such as cameras, radar, LiDAR,
-and GPS ) continuously collect real-time data about the surroundings. The onboard
-computer processes this data locally and makes instant decisions, like braking or
-steering, without sending everything to the cloud. This allows the car to react
-immediately and avoid accidents by minimizing delay.
-
-2. Edge Server Layer :
-Here, nearby edge servers or 5G base stations receive summarized information from
-several cars in the same area. These servers analyze local traffic conditions, detect
-incidents, and send quick alerts back to nearby vehicles ( for example, warning them
-about congestion or a roadblock ahead). This layer helps coordinate vehicles within a
-region efficiently and with low latency.
-
-3. Cloud Server Layer:
-In the cloud layer, large data centers collect non-urgent information from many
-vehicles and edge servers. The cloud performs advanced analytics, trains AI models
-to improve driving algorithms, and sends software updates back to the cars. This
-global processing ensures continuous learning and long-term improvement of
-autonomous driving systems.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{images/Architecture2.jpg}
-    \caption{self-driving car}
-\end{figure}
-
 \newpage
 \section{Edge Computing Security and Privacy:}
 \subsection{DDoS Attacks and Defense Mechanisms in Edge Computing:}
@@ -568,4 +519,20 @@ cross-layer resilience will enable trustworthy, large-scale edge ecosystems. The
 innovations are essential for the secure adoption of edge computing in critical domains such
 as autonomous systems, industrial IoT, and smart cities.
 
+\newpage
+\section{References}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\begin{itemize}
+    \item IEEE Xplore: Edge Computing Security: State of the Art and Challenges
+    \item Youtube:
+    \begin{itemize}
+        \item \href{https://youtu.be/kOSJbiWMZKo?si=_QKyPqhQ7oUHaAJc}{Video 1}
+        \item \href{https://youtu.be/Abiu2YaY6b0?si=livQRpg5GOX9C_F9}{Video 2}
+        \item \href{https://youtu.be/3ynEvRldygY?si=p-hYhqlGbGeK0k9C}{Video 3}
+        \item \href{https://www.youtube.com/watch?v=cEOUeItHDdo}{Video 4}
+        \item \href{https://youtu.be/RaAioL1Kpno}{Video 5}
+    \end{itemize}
+    \item What is Edge Architecture? - https://www.geeksforgeeks.org
+\end{itemize}
 \end{document}

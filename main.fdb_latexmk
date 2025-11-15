@@ -1,6 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1763051761.25728 "/home/akramfrk/Study/CS1/Intro CS/Project/main.tex" "main.pdf" "main" 1763051762.09544 0
-  "/home/akramfrk/Study/CS1/Intro CS/Project/main.tex" 1763051760.89735 41693 8d99d9b5ecad853cd37bf81a621edf90 ""
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1763218741.89757 0
+  "/usr/share/texlive/texmf-dist/bibtex/bst/ieeetran/IEEEtran.bst" 1440712899 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
+  "main.aux" 0 -1 0 "pdflatex"
+  "references.bib" 0 -1 0 ""
+  (generated)
+  "main.bbl"
+  "main.blg"
+  (rewritten before read)
+["pdflatex"] 1763218741.03268 "/home/akramfrk/Study/CS1/Intro CS/Project/main.tex" "main.pdf" "main" 1763218741.89778 0
+  "/home/akramfrk/Study/CS1/Intro CS/Project/main.tex" 1763218740.6947 41044 74dcbde46011f8161e0444dfb0fd1de6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1737590400 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -95,12 +103,12 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1762720980 7753933 d40f9799e90e134b2f39eb145c9b0e68 ""
   "Header.png" 1763024209.98707 147024 7b0fcece3d88cdf57cd0a3d45643dff3 ""
   "images/Architecture1.jpg" 1763026040.82729 46846 886ec464107c0303db4ebb3d71b6e349 ""
-  "images/Architecture2.jpg" 1763026086.12533 74764 afe3da73352734aa1849d9a9cfb7a291 ""
   "images/DDoS.jpg" 1763028606.10545 21898 1a5fb164fb1c9d60459da93194230109 ""
-  "main.aux" 1763051762.01336 9914 fea1455300c4c431c406c02dd0bdc868 "pdflatex"
-  "main.out" 1763051762.01436 14025 a52535a2dcc7701ff53acebbc3694b4e "pdflatex"
-  "main.tex" 1763051760.89735 41693 8d99d9b5ecad853cd37bf81a621edf90 ""
-  "main.toc" 1763051762.01536 6395 7f7ce1c2d24dc1b3b8126fc7bbf2147c "pdflatex"
+  "main.aux" 1763218741.64635 9802 18d9a2ad03f205ad8758e480e7b7c1cc "pdflatex"
+  "main.bbl" 0 -1 0 "bibtex main"
+  "main.out" 1763218741.64735 14026 2a31816215b253aeb9400fea4952805a "pdflatex"
+  "main.tex" 1763218740.6947 41044 74dcbde46011f8161e0444dfb0fd1de6 ""
+  "main.toc" 1763218741.64871 6384 4493a1f08dfc6bec0452b046d70be0b2 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
