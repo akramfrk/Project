@@ -132,7 +132,6 @@ computing.
 \newpage
 \section{Edge Computing Security and Privacy:}
 \subsection{DDoS Attacks and Defense Mechanisms in Edge Computing:}
-\subsubsection{Introduction:}
 DDoS refers to a type of active cyber attack in which external attackers aim to disrupt the availability of normal services provided by one or more servers using distributed resources such as a cluster of compromised edge devices (a.k.a. botnet). It mainly targets the Network, Transport, and Application layers of the OSI model. It is a powerful interruption attack that prevents legitimate users from accessing a service, thereby threatening the availability aspect of information security.
 A traditional DDoS attack occurs when an attacker persistently sends massive streams of packets to a victim from compromised distributed electronic devices; thus, the hardware resources of the victim are quickly exhausted for handling these malicious packets and can no longer process legitimate requests on time. In other cases, attackers send malformed or spoofed packets that confuse the victim’s protocol, causing it to falsely conclude that all channels are occupied.
 Edge servers are particularly vulnerable because they have limited computational capacity, weak authentication, and often operate with heterogeneous and insecure firmware. Attackers commonly compromise numerous edge devices and coordinate them remotely to launch large-scale attacks against edge infrastructures.
@@ -147,7 +146,7 @@ SYN flooding: Abuses TCP’s three-way handshake by sending many SYNs with spoof
 HTTP flooding: Sends a large number of legitimate-looking HTTP requests (GET/POST/PUT, etc.), overwhelming the server’s processing capacity.
 Zero-day attacks: Exploit previously unknown software or protocol vulnerabilities (e.g., memory corruption) to crash or corrupt systems; these are hard to predict or filter because they abuse logic/implementation flaws rather than just volume.
 \subsubsection{Defense Strategies Against Flooding:}
-D1. Per-packet inspection and filtering: Drop suspicious packets before they reach the server (e.g., packet filters tied to congestion control). Effective but can be evaded by IP/MAC spoofing, forged headers, or tools that alter identifiers.
+1. Per-packet inspection and filtering: Drop suspicious packets before they reach the server (e.g., packet filters tied to congestion control). Effective but can be evaded by IP/MAC spoofing, forged headers, or tools that alter identifiers.
 2. Statistics-based detection: Analyze traffic aggregates for anomalies (entropy measures, statistical clustering). Requires large traffic samples and struggles with encrypted flows.
 3. Machine/deep learning: Use models (decision trees, Naive Bayes, autoencoders, neural nets) to detect attacks, including some encrypted traffic. These require large, representative training datasets, risk overfitting, and typically become effective only after substantial attack traffic has been observed.
 Limitations: All approaches face practical challenges — IP spoofing, similarity between legitimate and attack traffic, encrypted flows that hinder inspection, and the need for extensive, high-quality training data. Effective defense usually combines real-time packet filtering with aggregate analysis and ML-based detection.
@@ -162,8 +161,6 @@ Active protection and isolation: Methods such as in-process memory isolation, SD
 \end{figure}
 
 \subsection{Side Channel Attacks and Defenses:}
-
-\subsubsection{Introduction:}
 What if I told you hackers could steal your data without ever touching your files, cracking your password, or breaking into your system? Sounds impossible, right?  
 That is exactly what happens in a side-channel attack — a method where attackers exploit indirect physical or system signals, such as power usage, timing, or data from system files like \texttt{/proc}, to extract secrets without breaking encryption or accessing the main code.
 
@@ -210,7 +207,6 @@ Edge computing devices are especially vulnerable due to their limited resources,
     \item \textbf{Hardware Isolation:} enhances protection but cannot completely prevent signal leakage.
 \end{itemize}
 \subsection{Malware Injection:}
-\subsubsection{Introduction:}
 A malware injection attack occurs when malicious code is inserted into a legitimate process, service, or device
 so that it executes within the victim’s environment. These attacks aim to compromise confidentiality, integrity, or
 availability. They are particularly dangerous in edge computing because devices often have limited resources and
@@ -261,12 +257,10 @@ vention: Medium Attacks Based On: Abusing WebView or native-JS bridges in mobile
 Over-permissive WebView settings Existing Solutions and Limitations: Restrict bridge interfaces and sandbox
 web content, though many apps neglect these controls.
 \end{enumerate}
-\subsubsection{Conclusion:}
 Each malware injection vector targets different OSI layers and system components. Understanding which layer is
 affected helps prioritize security controls and apply layered defenses across both server and device sides.
 
 \subsection{Authentication and Authorization Attacks and Defense Mechanisms:}
-\subsubsection{Introduction:}
 Authentification is the process of verifying the identity of users who request certain
 services.  Authorization is the process that determines an entity’s access rights and privileges.In edge computing, authentication often takes place between edge devices and edge
 servers, but it can also be decentralized among devices.
@@ -372,14 +366,6 @@ Authentication \& Authorization Attacks & Vulnerable to dictionary attacks and S
 \end{tabular}
 \end{center}
 
-\subsubsection{Conclusion}
-
-Cloud computing and edge computing offer similar services and functionalities, but their architectural differences lead to significant variations in security risks. Cloud computing, with its centralized design, powerful servers, and wired connections, is generally more resilient to traditional attacks such as DDoS and side channel exploits, though it remains vulnerable to zero-day attacks at the software level.
-
-Edge computing, by contrast, relies on decentralized servers and resource-constrained IoT/mobile devices connected via wireless networks, which exposes it to a wider range of attacks, including device-level DDoS, side channel attacks, malware injection, and authentication/authorization exploits.
-
-Overall, while cloud systems benefit from stronger protections and centralized management, edge systems trade off some security for proximity, real-time performance, and low-cost services, making security a more critical and complex challenge in edge computing environments.
-
 \section{Root Causes, Grand Challenges , and Furure Research:}
 \subsection{Root Causes of Security Issues:}
 Current edge computing infrastructures suffer from serious cyber-attacks, which may
@@ -446,7 +432,6 @@ a fine-grained access control specifically designed for edge computing
 applications may significantly lower the bar of launching an attack (e.g.,
 authorization attacks and MITM attacks).
 \subsection{Status Quo and Grand Challenges:}
-\subsubsection{Introduction:}
 Edge computing has emerged to overcome the limitations of traditional cloud computing by providing low latency and localized processing. However, its rapid growth has outpaced the development of robust security mechanisms. Current systems face challenges in four key areas: design philosophy, framework adaptability, access control, and defensive capabilities.
 
 \subsubsection{Lack of Security-by-Design:}
@@ -461,7 +446,6 @@ Access control in edge environments is inconsistent and lacks granularity. Diffe
 \subsubsection{Isolated and Passive Defense Mechanisms:}
 Current defense strategies are largely reactive and siloed, offering limited protection against advanced or coordinated attacks. Most rely on detection and patching rather than proactive threat prevention. A key challenge is to design adaptive and collaborative defense systems capable of anticipating and responding dynamically to evolving threats.
 \subsection{Future Research Directions:}
-\subsubsection{Introduction:}
 Recent analyses of Distributed Denial-of-Service (DDoS) attacks, malware injection, and
 authentication breaches reveal major limitations in current edge computing security. These
 threats exploit edge-specific characteristics such as limited resources, protocol diversity, and

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.9)  15 NOV 2025 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.9)  15 NOV 2025 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,7 +342,7 @@ Package hyperref Info: Link coloring ON on input line 24.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-<images/Header.png, id=249, 1119.18124pt x 398.48875pt>
+<images/Header.png, id=217, 1119.18124pt x 398.48875pt>
 File: images/Header.png Graphic file (type png)
 <use images/Header.png>
 Package pdftex.def Info: images/Header.png  used on input line 30.
@@ -360,197 +360,197 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...s of Security Issues:}{15}{subsection.4.1}
+l.42 ...Access Controls:}{15}{subsubsection.4.1.5}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
  [2] [3] [4]
-<images/Architecture1.jpg, id=335, 803.0pt x 520.94624pt>
+<images/Architecture1.jpg, id=294, 803.0pt x 520.94624pt>
 File: images/Architecture1.jpg Graphic file (type jpg)
 <use images/Architecture1.jpg>
 Package pdftex.def Info: images/Architecture1.jpg  used on input line 129.
 (pdftex.def)             Requested size: 375.80544pt x 243.8114pt.
  [5 <./images/Architecture1.jpg>] [6]
-<images/DDoS.jpg, id=346, 470.75874pt x 224.84pt>
+<images/DDoS.jpg, id=305, 470.75874pt x 224.84pt>
 File: images/DDoS.jpg Graphic file (type jpg)
 <use images/DDoS.jpg>
-Package pdftex.def Info: images/DDoS.jpg  used on input line 160.
+Package pdftex.def Info: images/DDoS.jpg  used on input line 159.
 (pdftex.def)             Requested size: 375.80544pt x 179.49142pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 168.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 165.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [7 <./images/DDoS.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 178.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 175.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 []|\OT1/ptm/m/n/12 Fully-fledged com-put-ers (PCs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 []|\OT1/ptm/m/n/12 Primarily wire-less con-nec-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []|\OT1/ptm/m/n/12 Resource Ca-pa-
  []
 
 
-Underfull \hbox (badness 7832) in paragraph at lines 342--342
+Underfull \hbox (badness 7832) in paragraph at lines 336--336
 []|\OT1/ptm/m/n/12 Data Pro-cess-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []|\OT1/ptm/m/n/12 Centralized data pro-cess-ing in
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 342--343
+Underfull \hbox (badness 7151) in paragraph at lines 336--337
 []|\OT1/ptm/m/n/12 Localized pro-cess-ing near data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []|\OT1/ptm/m/n/12 Service Char-ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 []|\OT1/ptm/m/n/12 Low la-tency, location-aware,
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 344--345
+Underfull \hbox (badness 2726) in paragraph at lines 338--339
 \OT1/ptm/m/n/12 real-time, privacy-enhanced, and
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 346--347
+Underfull \hbox (badness 1509) in paragraph at lines 340--341
 []|\OT1/ptm/m/n/12 Distributed | many small edge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\OT1/ptm/m/n/12 Security Chal-
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 350--350
+Underfull \hbox (badness 1596) in paragraph at lines 344--344
 []|\OT1/ptm/m/n/12 Strong cen-tral-ized au-then-ti-ca-tion,
  []
 
 [12] [13]
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 364.
+            Default family used instead on input line 358.
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--364
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\OT1/ptm/m/n/12 Uses heavy-weight pro-to-cols
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 364--364
+Underfull \hbox (badness 2261) in paragraph at lines 358--358
 \OT1/ptm/m/n/12 (HTTP/HTTPS, FTP, SMTP) \TS1/cmr/m/n/12 ^^Y
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 364--364
+Underfull \hbox (badness 1803) in paragraph at lines 358--358
 \OT1/ptm/m/n/12 zero-day DDoS due to soft-ware
  []
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 364.
+            Default family used instead on input line 358.
 
-Underfull \hbox (badness 3657) in paragraph at lines 364--365
+Underfull \hbox (badness 3657) in paragraph at lines 358--359
 \OT1/ptm/m/n/12 MQTT, UDP) \TS1/cmr/m/n/12 ^^Y \OT1/ptm/m/n/12 eas-ier to at-
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 366--366
+Underfull \hbox (badness 4266) in paragraph at lines 360--360
 \OT1/ptm/m/n/12 face. At-tacks mostly through
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 366--366
+Underfull \hbox (badness 3482) in paragraph at lines 360--360
 \OT1/ptm/m/n/12 packet eaves-drop-ping or crafted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
 []|\OT1/ptm/m/n/12 Attackers usu-ally com-pro-mise
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 368--368
+Underfull \hbox (badness 2057) in paragraph at lines 362--362
 \OT1/ptm/m/n/12 clients. Harder to com-pro-mise
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 370--370
+Underfull \hbox (badness 1308) in paragraph at lines 364--364
 []|\OT1/ptm/m/n/12 Authentication & Au-
  []
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 370.
+            Default family used instead on input line 364.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family ptm in TS1 encoding.
-            Default family used instead on input line 370.
+            Default family used instead on input line 364.
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 []|\OT1/ptm/m/n/12 More weak pass-words on
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 370--371
+Underfull \hbox (badness 6910) in paragraph at lines 364--365
 \OT1/ptm/m/n/12 IoT/mobile de-vices. Vul-ner-a-
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 370--371
+Underfull \hbox (badness 6825) in paragraph at lines 364--365
 \OT1/ptm/m/n/12 ble to WPA/WPA2, Blue-tooth,
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 370--371
+Underfull \hbox (badness 2828) in paragraph at lines 364--365
 \TS1/cmr/m/n/12 ^^Y \OT1/ptm/m/n/12 com-plex au-tho-riza-tion, more
  []
 
 
-Overfull \hbox (23.08902pt too wide) in paragraph at lines 360--373
+Overfull \hbox (23.08902pt too wide) in paragraph at lines 354--367
  [] 
  []
 
 [14{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (6.2436pt too wide) in paragraph at lines 415--426
+Overfull \hbox (6.2436pt too wide) in paragraph at lines 401--412
 \OT1/ptm/m/n/12 low. Many at-tacks are, in fact, the re-sults of the code-level vul-ner-a-bil-i-ties. Note that implementation-
  []
 
-[15] [16] [17] [18]
+[15] [16] [17]
 No file main.bbl.
-[19] (./main.aux)
+[18] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A31816215B253AEB9400FEA4952805A;14026.
+(rerunfilecheck)             Checksum: 5D5B463F31BE4E3F4E6D2B2515EB4E3C;12986.
  ) 
 Here is how much of TeX's memory you used:
- 11628 strings out of 476041
- 189933 string characters out of 5793174
- 1867388 words of memory out of 6000000
- 31837 multiletter control sequences out of 15000+600000
+ 11611 strings out of 476041
+ 189604 string characters out of 5793174
+ 1866388 words of memory out of 6000000
+ 31829 multiletter control sequences out of 15000+600000
  525799 words of font info for 58 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,8n,77p,1312b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,77p,1312b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (20 pages, 330269 bytes).
+Output written on main.pdf (19 pages, 327933 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 424 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 504 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 
